@@ -1,6 +1,8 @@
 name: Build Loop Follow
 on:
   workflow_dispatch:
+  schedule: ## Schedule the job to run every 1st of month 00:00 UTC daily.
+    - cron: '0 0 1 * *'
 
 jobs:
   build:
