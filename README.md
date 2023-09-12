@@ -1,14 +1,21 @@
-> **Message from Jon Fawcett:**
-> * Because our family now uses Omnipod 5, I will not be updating this repository. 
-> * I will also no longer provide an option for a TestFlight invitation from me. 
-> * You must build the app yourself.
-
 > **Message from the Loop and Learn Team:**
-> * We will keep the Loop Follow app going; it will stay at this repository. 
-> * Additional Loop Follow documentation is at [Loop and Learn: Loop Follow](https://www.loopandlearn.org/loop-follow/).
+> * We have taken responsibility for updates to the Loop Follow app
+> * Additional Loop Follow documentation is at [Loop and Learn: Loop Follow](https://www.loopandlearn.org/loop-follow/)
 > * If you are having problems with the app:
->     * Post in the [Loop and Learn Facebook group](https://www.facebook.com/groups/LOOPandLEARN); indicate that your question is related to Loop Follow. 
->     * If you do not use Facebook - please click on this [link to file an Issue](https://github.com/jonfawcett/LoopFollow/issues) with your problem.
+>     * Post in the [Loop and Learn Facebook group](https://www.facebook.com/groups/LOOPandLEARN); indicate that your question is related to Loop Follow
+>     * If you do not use Facebook - please click on this [link to file an Issue](https://github.com/loopandlearn/LoopFollow/issues) with your problem
+
+> **New location for LoopFollow Repository:**
+> * If you previously created a fork of LoopFollow from the JonFawcett username
+>    * Please note the repository name has changed to [https://github.com/loopandlearn/LoopFollow](https://github.com/loopandlearn/LoopFollow)
+>    * GitHub should automatically redirect you to this new address
+>    * We have also modifed one branch and one file name to match standard conventions: _main_ (from _Main_) and _README.md_ (from _readme.md_)
+
+> **Message from Jon Fawcett:**
+> * Because our family now uses Omnipod 5, I will no longer be involved in updating LoopFollow
+> * I have transferred the _LoopFollow_ repository from the _JonFawcett_ to the _loopandlearn_ username
+> * I will also no longer provide an option for a TestFlight invitation from me. (Jon Fawcett)
+>   * You must build the app yourself.
 
 > **Message to Developers**
 > * If you are interested in assisting with this app and want to work on new features and improvements for Loop, iAPS and Nightscout functionality, please reach out. 
@@ -36,13 +43,16 @@ low alert for the BG you want to wake up to and close Loop.
 Please see [Loop and Learn: Loop Follow](https://www.loopandlearn.org/loop-follow/) for all the building options.
 
 ### General feature list
+
+Please review the list on [Loop and Learn: Loop Follow](https://www.loopandlearn.org/loop-follow/) which may be updated more frequently than this README.md file.
+
 - scrollable/scalable graph display with BG, basal, bolus, and carb details plus Loop status, Loop Prediction, and the General NS Care portal info.
 - Override DND and system volume for all alerts.
 - snoozes per alert, presnooze, edit existing snooze, and snooze all alert settings.
-- the standard Low/High, Urgent Low/High, and missed reading alerts. High will have a persistence option that’s still to do. Eg high for x minutes.
-- fast drop/rise alerts with BG limits. Eg Trigger fast drop only when under a BG where it’s an issue.
+- the standard Low/High, Urgent Low/High, and missed reading alerts with additonal option to select persistence; for example, alert when high for x minutes.
+- fast drop/rise alerts with BG limits; for example, alert for fast drop only when glucose is below specific value.
 - sage/cage reminder alerts for x hours before change.
-- Not Looping with Bg limits alert. So you can trigger the alert only if under or over a BG range.
+- Not Looping with glucose limits alert: you can configure the alert if under or over a glucose range.
 - Missed Bolus alert.
 - calendar entries to use watch complication with BG, arrow, delta, cob, iob and minutes ago (if old reading).
 - background silent audio to keep iOS from killing the app. This is why it can’t go in the App Store for just a simple download.
